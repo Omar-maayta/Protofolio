@@ -1,0 +1,188 @@
+*{
+    padding:0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:"Roberto", sans-serif ;
+    color: black;
+}
+body{
+    background:rgba(0, 0, 0, 0.86);
+    height: 100vh;
+    background-image: url(./one-person-hiking-mountain-peak-admiring-milky-way-galaxy-generated-by-ai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #eeeeee06;
+}
+a{
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.375);
+    transition: all 0.5s;
+}
+a:hover{
+    border: .5px solid rgb(255, 255, 255) ;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.482);
+    color: rgb(255, 220, 19);
+    transform: translatey(10px);
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 50%;
+    height: 40vh;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+main .top-left{
+
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-flow: column nowrap;
+    transition: all .9s;
+}
+.top-left p{
+    display: none;
+    color: white;
+    animation: color .9s;
+}
+h2{
+    color: goldenrod;
+}
+.top-left:hover{
+    background-color:rgba(0, 0, 0, 0.482) ;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 20px;
+    transform: translatex(-200px);
+    padding: 10px;
+    display: flex;
+}
+.top-left:hover>p{
+    background-color:rgba(0, 0, 0, 0.482) ;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    color: gold;
+}
+
+main .top-right{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-flow: column nowrap;
+    transition: all .9s;
+}
+.top-right p{
+    display: none;
+    color: white;
+    animation: color .9s;
+}
+.top-right:hover{
+    background-color:rgba(0, 0, 0, 0.482) ;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 20px;
+    transform: translatex(200px);
+    padding: 10px;
+    display: flex;
+}
+.top-right:hover>p{
+    background-color:rgba(0, 0, 0, 0.482) ;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    color: gold;
+}
+main .bottom-left{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-flow: column nowrap;
+    transition: all .9s;
+}
+.bottom-left p{
+    display: none;
+    color: white;
+    animation: color .9s;
+}
+.bottom-left:hover{
+    background-color:rgba(0, 0, 0, 0.482) ;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 20px;
+    transform: translatex(-200px);
+    padding: 10px;
+    display: flex;
+}
+.bottom-left:hover>p{
+    background-color:rgba(0, 0, 0, 0.482) ;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    color: gold;
+}
+main .bottom-right{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-flow: column nowrap;
+    transition: all .9s;
+}
+.bottom-right p{
+    display: none;
+    color: white;
+    animation: color .9s;
+}
+.bottom-right:hover{
+    background-color:rgba(0, 0, 0, 0.482) ;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 20px;
+    transform: translatex(200px);
+    padding: 10px;
+    display: flex;
+}
+.bottom-right:hover>p{
+    background-color:rgba(0, 0, 0, 0.482) ;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    color: gold;
+}
+
+@media (max-width: 480px) {
+    main {
+      font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    header {
+      font-size: 14px; 
+    }
+}
+
+
+    @media (max-width: 568px) {
+        main {
+    font-size: 10px; 
+        }
+    }

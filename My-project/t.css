@@ -1,0 +1,23 @@
+.di{
+    display: inline-block;
+}
+.b{
+    font-size: 5em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 2px solid black;
+    width: 100%;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typing 2s , c .4s step-end infinite alternate ;
+}
+@keyframes c{
+    50% {
+        border-color: transparent;
+    }
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
